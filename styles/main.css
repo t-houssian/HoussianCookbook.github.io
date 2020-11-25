@@ -103,6 +103,25 @@ header a:hover{
     display: block;
 }
 
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    padding: 1em;
+}
+
+.main-left-img {
+    grid-column: 4 / 6;
+    grid-row: 2 / 4;
+    margin: 1em 0.2em 0.2em 0.2em;
+}
+
+.main-paragraph {
+    grid-column: 4 / 6;
+    grid-column: 1 / 3;
+    grid-row: 2 / 4;
+}
+
 /* ID Selectors */
 #favorite-foods, #hobbies, #places-lived {
     margin: 0;

@@ -1,8 +1,3 @@
-// https://designer.mocky.io/
-
-// https://run.mocky.io/v3/794579f4-7c44-4241-abe9-b76221e4e5a6
-
-
 let message2 = 'Recipe List';
 
 // Step 2: Assign the value of the second message variable to the HTML element with an ID of message2
@@ -12,7 +7,7 @@ let foods = [];
 
 let nameList = document.createElement('ul');
 
-fetch("mexican.json")
+fetch("italian.json")
   .then(res => res.json())
   .then(nextFood => {
     nextFood.forEach(function(item) {
