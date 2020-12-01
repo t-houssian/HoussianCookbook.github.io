@@ -29,6 +29,20 @@
             <p class="main-paragraph2" id="message2"></p>
             <img id="img">
         </section>
+        <section>
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mnqoboyd" method="post">
+                <fieldset id="fs-frm-inputs">
+                  <label for="full-name">Full Name</label>
+                  <input type="text" name="name" id="full-name" placeholder="Michael Bubbly" required="">
+                  <label for="email-address">Email Address</label>
+                  <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                  <label for="message">Recipe</label>
+                  <textarea rows="5" name="message" id="message" placeholder="What's Cookin?" required=""></textarea>
+                  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                </fieldset>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
     </main>
     <footer>
         &copy;<span id="year"></span> | Houssian Cookbook | Mexican Food | <a href="https://lime-coffee-gorilla.glitch.me/site-plan.html">Site Plan</a>
